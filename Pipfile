@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+open3d = "*"
+numpy = "*"
+matplotlib = "*"
+pandas = "*"
+pptk = "*"
+
+[pipenv]
+allow_prereleases = true
